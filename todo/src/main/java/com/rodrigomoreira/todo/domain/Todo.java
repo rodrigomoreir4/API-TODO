@@ -14,6 +14,18 @@ public class Todo {
     private String title;
     private boolean completed;
 
+    public Todo() {
+    }
+
+    public Todo(String title) {
+        this.title = title;
+    }
+
+    public Todo(String title, boolean completed) {
+        this.title = title;
+        this.completed = completed;
+    }
+
     public Long getId() {
         return id;
     }
